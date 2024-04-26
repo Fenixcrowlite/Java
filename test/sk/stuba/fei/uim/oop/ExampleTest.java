@@ -188,5 +188,6 @@ public class ExampleTest {
         assertEquals(100000, grant2.getBudgetForProject(P3));
         Constants.PROJECT_DURATION_IN_YEARS = 4;
         Constants.MAX_EMPLOYMENT_PER_AGENCY = 5;
+        Constants.COMPANY_INIT_OWN_RESOURCES = 1000000;
     }
 }
